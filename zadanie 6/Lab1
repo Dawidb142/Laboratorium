@@ -30,3 +30,13 @@ Akcja gry rozgrywa się na wyspie Khorinis, w Górniczej Dolinie - ośrodku karn
 <a href="o-grach.html">Dowiedz się więcej o grach!</a>
 	</body>
 </html>
+
+#PODSTRONA
+<!DOCTYPE html>
+<html>
+<img src="C:\Users\labor\Documents\Lab1 strona\imgs\g1.jpg" alt="Gothic"> <br>
+
+<img src="C:\Users\labor\Documents\Lab1 strona\imgs\m1.avif" alt="MADiSON"> <br>
+<img src="C:\Users\labor\Documents\Lab1 strona\imgs\m2.jpg" alt="MADiSON"> <br>
+
+</html>
