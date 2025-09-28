@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Polecane gry</title>
+	</head>
+	<body>
 
+	<h1>Polecane gry</h1>
+	<p>Poniżej przedstawię polecaną przeze mnie grę do danych gatunków.
+
+	<ul>
+	<li>Jednoosobowe
+	<li>Fabularne
+	<li>Świetnie oceniane
+	</ul>
+
+	<h2>Horrory</h2>
+	<p>"MADiSON"<br>
+Jest to wciągający i przerażający pierwszoosobowy horror psychologiczny, charakteryzujący się niepokojącą rozgrywką oraz wciągającą narracją.</p>
+<img src="C:\Users\labor\Documents\Lab1 strona\imgs\madison.jfif" alt="MADiSON"> <br>
+<a href="https://store.steampowered.com/app/1670870/MADiSON/">Odwiedź stronę z grą!</a>
+
+	<h3>RPG</h3>
+	<p>Seria gier "Gothic"<br>
+Akcja gry rozgrywa się na wyspie Khorinis, w Górniczej Dolinie - ośrodku karnym otoczonym "magiczną barierą" uniemożliwiającą wyjście.</p>
+<img src="C:\Users\labor\Documents\Lab1 strona\imgs\gothic1.jfif" alt="Gothic"> <br>
+<a href="https://store.steampowered.com/app/65540/Gothic_1/">Odwiedź stronę z grą!</a>
+<br>
+<a href="o-grach.html">Dowiedz się więcej o grach!</a>
+	</body>
+</html>
