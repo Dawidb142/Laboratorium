@@ -1,0 +1,2 @@
+DNS - Jest to lokalna pamięć, w której system zapisuje odwiedzone domeny i ich adresy IP.
+Komputer przechowuje te dane, ponieważ przyspiesza to ładowanie stron.
