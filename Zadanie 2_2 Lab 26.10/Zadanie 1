@@ -1,1 +1,11 @@
+1 GB = 1024 MB
+1024 MB * 8 = 8192 Mb
+8192 Mb / 10 Mb/s = 819,2s
+819,2 / 60 = 13,65min
+13,65min = 13min 39s
 
+Przymijmy narzut 5% + 1% retransmisji
+819,2s * 1,06 = 868s -> 14min 28s
+
+Wnioski:
+Teoretyczna prędkość nie jest taka sama jak czas rzeczywisty
