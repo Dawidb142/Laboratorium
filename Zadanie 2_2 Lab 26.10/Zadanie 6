@@ -1,0 +1,4 @@
+1. Parametry w metodzie Get znajdują się po znaku zapytania w adresie strony.
+2. Parametry w adresie URL nie są szyfrowane.
+3. W POST przesłano 1,11kB (o rozmiarze 880 B)
+a w GET przesłano 974 B (o rozmiarze 752 B)
