@@ -1,4 +1,1 @@
-Czy adres MAC urządzenia źródłowego pasuje do interfejsu twojego PC? - Tak
-Czy adres MAC urządzenia docelowego w programie Wireshark, pasuje do adresu MAC komputera twojego kolegi z zajęć? - W przypadku wykonywania zadania w sieci lokalnej - Tak
-W jaki sposób twój PC uzyskał MAC adres komputera PC, na który wysyłałeś żądania ping? - Komputer uzyskał go poprzez protokół ARP (protokół sieciowy tłumaczący logiczne adresy IP na fizyczne adresy MAC, niezbędne do komunikacji w sieci lokalnej (LAN) w ramach zestawu protokołów TCP/IP)
 
