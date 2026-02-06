@@ -1,0 +1,91 @@
+HTML
+//////////////////////////////////////
+<!DOCTYPE html>
+<html>
+	<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Polecane gry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1>Polecane gry</h1>
+	<p>Poniżej przedstawię polecaną przeze mnie grę do danych gatunków.
+
+	<ul>
+	<li>Jednoosobowe
+	<li>Fabularne
+	<li>Świetnie oceniane
+	</ul>
+
+	<h2>Horrory</h2>
+	<p>"MADiSON"<br>
+Jest to wciągający i przerażający pierwszoosobowy horror psychologiczny, charakteryzujący się niepokojącą rozgrywką oraz wciągającą narracją.</p>
+<img src="C:\Users\labor\Documents\Lab1 strona\imgs\madison.jfif" alt="MADiSON"> <br>
+<a href="https://store.steampowered.com/app/1670870/MADiSON/">Odwiedź stronę z grą!</a>
+
+	<h3>RPG</h3>
+	<p>Seria gier "Gothic"<br>
+Akcja gry rozgrywa się na wyspie Khorinis, w Górniczej Dolinie - ośrodku karnym otoczonym "magiczną barierą" uniemożliwiającą wyjście.</p>
+<img src="C:\Users\labor\Documents\Lab1 strona\imgs\gothic1.jfif" alt="Gothic"> <br>
+<a href="https://store.steampowered.com/app/65540/Gothic_1/">Odwiedź stronę z grą!</a>
+<br>
+<a href="o-grach.html">Dowiedz się więcej o grach!</a>
+	</body>
+	<hr>
+<h2>Formularz rejestracji gracza</h2>
+<form>
+    <label for="imie">Imię:</label><br>
+    <input type="text" id="imie" name="imie"><br><br>
+
+    <label for="nazwisko">Nazwisko:</label><br>
+    <input type="text" id="nazwisko" name="nazwisko"><br><br>
+
+    <label>Płeć:</label><br>
+    <input type="radio" id="kobieta" name="plec" value="Kobieta">
+    <label for="kobieta">Kobieta</label>
+    <input type="radio" id="mezczyzna" name="plec" value="Mężczyzna">
+    <label for="mezczyzna">Mężczyzna</label><br><br>
+
+    <label for="wiek">Wiek:</label><br>
+    <input type="number" id="wiek" name="wiek"><br><br>
+
+    <input type="submit" value="Wyślij dane">
+</form>
+</html>
+
+XML
+////////////////////////////////////////////
+<?xml version="1.0" encoding="UTF-8"?>
+<rejestracja xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="dane_osobowe.xsd">
+    <osoba>
+        <imie>Dawid</imie>
+        <nazwisko>Biernat</nazwisko>
+        <plec>Mężczyzna</plec>
+        <wiek>23</wiek>
+    </osoba>
+</rejestracja>
+
+XSD
+///////////////////////////////////////////
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="rejestracja">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="osoba">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="imie" type="xs:string"/>
+                            <xs:element name="nazwisko" type="xs:string"/>
+                            <xs:element name="plec" type="xs:string"/>
+                            <xs:element name="wiek" type="xs:integer"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
