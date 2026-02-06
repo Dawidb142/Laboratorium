@@ -1,1 +1,49 @@
+XML
+<?xml version="1.0" encoding="UTF-8"?>
+<rejestracja>
+    <osoba id="1">
+        <imie>Dawid</imie>
+        <nazwisko>Biernat</nazwisko>
+        <plec>Mężczyzna</plec>
+        <wiek>23</wiek>
+    </osoba>
+    <osoba id="2">
+        <imie>Wiktoria</imie>
+        <nazwisko>Kowalska</nazwisko>
+        <plec>Kobieta</plec>
+        <wiek>22</wiek>
+    </osoba>
+</rejestracja>
 
+DTD
+<!ELEMENT rejestracja (osoba+)>
+<!ELEMENT osoba (imie, nazwisko, plec, wiek)>
+<!ATTLIST osoba id ID #REQUIRED>
+<!ELEMENT imie (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+<!ELEMENT plec (#PCDATA)>
+<!ELEMENT wiek (#PCDATA)>
+
+XSD
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="rejestracja">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="osoba" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="imie" type="xs:string"/>
+                            <xs:element name="nazwisko" type="xs:string"/>
+                            <xs:element name="plec" type="xs:string"/>
+                            <xs:element name="wiek" type="xs:integer"/>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:integer" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+
+walidacja - The XML document is valid.
